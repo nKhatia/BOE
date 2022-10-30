@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!-- <script src="main.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("button").click(function(){
+        $("p").show();
+        });
+        $("button").click(function(){
+        $("div").show();
+        });
+        $("button").click(function(){
+        $("img").show();
+        });
+        $("button").click(function(){
+        $("nav").show();
+        });
+        $("button").click(function(){
+        $("button").hide();
+        });
+        $('a[href=http://www.instagram.com]').click(function(){
+        window.open(this.href);
+        return false;
+        });
+        $('a[href=http://www.twitter.com]').click(function(){
+        window.open(this.href);
+        return false;});
+        $('a[href=http://www.youtube.com]').click(function(){
+        window.open(this.href);
+        return false;});
+});
+    </script>
+</head>
+<body>
+    <div class="navbar" style="display:none">
+        <img src="/pictures/logo.jpg" id="logo" />
+           <i class="fa fa-bars" id="navBars"></i>
+           <div class="linksContainer">
+             <a href="index.html"><div class="active">Introduction</div></a>
+             <a href="attractions.html"><div>Attractions</div></a>
+             <a href="maps.html"><div>Maps</div></a>
+           </div>
+    </div>
+    <div class="bodyPart1" id="bp1">
+        <div class="backgroundImages">
+            <div class="cityLondon">
+                <button onclick="" id="clickclickmotherfucker1">Introduction</button>
+                <!--add link of intro to city names-->
+                <div class="txtOnPic1" id="city1" style="display: none;"> 
+                    <p id="londonIntro" style="display: none;"> <bold>
+                    London is the capital city of the United Kingdom. 
+                    It is the U.K.'s largest metropolis and its economic,
+                    transportation, and cultural centre. London is also
+                    among the oldest of the world's 
+                    great cities, with its history spanning nearly two millennia.</bold>
+                </p></div>
+                <img src="/pictures/londonPic.jpg" id="london" style="display: none;">
+            </div>
+            <div class="cityParis">
+                <div class="txtOnPic2" id="city2" style="display: none;">
+                <p id="parisIntro">
+                    <bold>
+                        Paris, city and capital of France, situated
+                         in the north-central part of the country. 
+                         People were living on the site of the 
+                         present-day city, located along the Seine
+                          River some 233 miles (375 km) upstream 
+                          from the river’s mouth on the English 
+                          Channel (La Manche), by about 7600 BCE.
+                           The modern city has spread from the 
+                           island (the Île de la Cité) 
+                        and far beyond both banks of the Seine.
+                    </bold>
+                </p></div>
+                <img src="/pictures/parisPic.png" id="paris" style="display: none;">
+            </div>
+            <div class="cityRome">
+                <div class="txtOnPic3" id="city3" style="display: none;">
+                <p id="romeIntro">
+                    <bold>
+                        Rome, Italian Roma, historic city and 
+                        capital of Roma provincia (province), 
+                        of Lazio regione (region), and of the 
+                        country of Italy. Rome is located in 
+                        the central portion of the Italian 
+                        peninsula, on the Tiber River about 15 
+                        miles (24 km) inland from the Tyrrhenian Sea.
+                    </bold>
+                </p></div>
+                <img src="/pictures/romePic.png" id="rome" style="display: none;">
+            </div>
+        </div>
+    </div>
+    <div class="footerContainer" style="display:none" id="footer">
+        <img src="/pictures/logo.jpg" id="footerlogo"/>
+           <i class="fa fa-bars" ></i>
+           <div class="footerLinkContainer">
+            <p>
+                BOE 2022; All rights reserved.
+            </p>
+            <a href="http://www.instagram.com/" class="socialIconLink"><i><img
+                src="https://img.icons8.com/metro/26/000000/instagram-new.png" id="numTen" /></i></a>
+    <a href="http://www.twitter.com/" class="socialIconLink"><i><img
+                src="https://img.icons8.com/android/24/000000/twitter.png" id="numEleven" /></i></a>
+    <a href="http://www.youtube.com/" class="socialIconLink"><i><img
+                src="https://img.icons8.com/metro/26/000000/youtube.png" id="numTwelve" /></i></a>
+           </div>
+    </div> 
+</body>
+</html>

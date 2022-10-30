@@ -1,0 +1,308 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color:#f9f0ff;
+}
+.bodyPart1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#londonIntro {
+    font-size: 1.2rem;
+    border: #f3b9b9;
+    border-style: double;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    left: 45rem;
+    top: 5rem;
+    font-weight: 1000;
+    width: 80%;
+    text-decoration: italic;
+}
+
+#london {
+    top: 5;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 20rem;
+}
+
+#parisIntro {
+    font-size: 1.2rem;
+    border: #f3b9b9;
+    border-style: double;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    left: 5rem;
+    top: 4rem;
+    font-weight: 1000;
+    width: 100%;
+    text-decoration: italic;
+}
+
+#paris {
+    top: 5;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20rem;
+}
+
+#romeIntro {
+    font-size: 1.2rem;
+    border: #f3b9b9;
+    border-style: double;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    left: 45rem;
+    top: 5rem;
+    font-weight: 1000;
+    width: 60%;
+    text-decoration: italic;
+}
+
+#rome {
+    top: 5;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 20rem;
+}
+
+#city1 {
+    font-size: 2rem;
+    border: #f3b9b9;
+    text-align: center;
+    color: black;
+    position: absolute;
+    right: 46rem;
+    font-family: cursive;
+}
+
+#city2 {
+    font-size: 2rem;
+    border: #f3b9b9;
+    text-align: center;
+    color: black;
+    position: absolute;
+    right: 56rem;
+    font-family: cursive;
+}
+#city3 {
+    font-size: 2rem;
+    border: #f3b9b9;
+    text-align: center;
+    color: black;
+    position: absolute;
+    right: 25rem;
+    font-family: cursive;
+}
+#clickclickmotherfucker1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 20rem;
+    font-family: cursive;
+    font-size: larger;
+    border-color: black;
+    border-style: double;
+    background-color: #eec9c9;
+    width: 25rem;
+    height: 3rem;
+    text-align: center;
+}
+#clickclickmotherfucker2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 20rem;
+    font-family: cursive;
+    left: 28rem;
+    font-size: larger;
+    border-color: black;
+    border-style: double;
+    background-color: #eec9c9;
+    width: 25rem;
+    height: 3rem;
+    text-align: center;
+}
+.navbar {
+    font-family: cursive;
+    height: 11vh;
+    background: #eec9c9;
+    display: inline-block;
+    width: 100%;
+    font-size: larger;
+}
+#logo 
+{
+    margin:0;
+}
+#navBars 
+{
+    vertical-align: top;
+    margin-top: 3px;
+    float: right;
+    font-size: 2rem;
+    border: 2px solid black;
+    padding: 3px 5px;
+    cursor: pointer;
+    display: none;
+    margin-right: 7px;
+}
+
+#navBars:hover 
+{
+    color: #740241;
+    border: 2px solid #740241;
+}
+
+.linksContainer 
+{
+    vertical-align: top;
+    margin-top: 5px;
+    float: right;
+    margin-left: 5px;
+}
+.linksContainer a 
+{
+    text-decoration: none;
+}
+.linksContainer div 
+{
+    display: inline-block;
+    margin: 0 7px;
+    vertical-align: top;
+    margin-top: 10px;
+    padding: 5px 9px;
+    border-radius: 3px;
+}
+.linksContainer div:hover 
+{
+    background: #740241;
+    color: white;
+}
+.active 
+{
+    background: #740241;
+    color: white;
+}
+@media only screen and (max-width: 600px) 
+{
+    .linksContainer 
+    {
+        margin: 0;
+        display: block;
+        width: 100%;
+        background: #f4f4f4;
+        display: none;
+    }
+
+    .linksContainer div 
+    {
+        width: 100%;
+        padding: 15px 10px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .linksContainer div:hover 
+    {
+        background: #740241;
+        color: white;
+    }
+
+    #navBars 
+    {
+        display: block;
+    }
+
+    .active-div 
+    {
+        background: #740241;
+    }
+}
+.footerContainer
+{
+    font-family: cursive;
+    background: #eec9c9;
+    display: flex;
+    width: 100%;
+    height: 13vh;
+
+}
+#footer {
+    bottom: 0;
+    cursor: pointer;
+}
+.footerContainer
+{
+    align-items: center;
+}
+.footerContainer:hover {
+    color: #740241;
+    border: 2px solid #740241;
+}
+.footerLinksContainer div {
+    display: flex;
+    flex-direction: row;
+    vertical-align: bottom;
+}
+
+.footerLinksContainer div:hover 
+{
+    background: #740241;
+    color: white;
+}
+
+.active 
+{
+    background: #740241;
+    color: white;
+}
+#footerlogo
+{
+    display: flex;
+    cursor: pointer;
+}
+.footerLinkContainer 
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 22rem;
+    position: relative;
+    text-align: center;
+}
+p
+{
+    font-size: 1rem;
+    border: black;
+    color: black;
+    position: relative;
+    font-family: cursive;
+    text-align: center;
+}
+.mapLondon
+{
+    width: 284;
+}
+.mapLondon path{
+    fill: #740241;
+    stroke: #eec9c9;
+    stroke-width: 0.5rem;
+    transition: fill 0.5s;
+}

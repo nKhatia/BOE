@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("button").click(function(){
+        $("p").show();
+        });
+        $("button").click(function(){
+        $("div").show();
+        });
+        $("button").click(function(){
+        $("img").show();
+        });
+        $("button").click(function(){
+        $("nav").show();
+        });
+        $("button").click(function(){
+        $("button").hide();
+        });
+        $('a[href=http://www.instagram.com]').click(function(){
+        window.open(this.href);
+        return false;
+        });
+        $('a[href=http://www.twitter.com]').click(function(){
+        window.open(this.href);
+        return false;});
+        $('a[href=http://www.youtube.com]').click(function(){
+        window.open(this.href);
+        return false;});
+    });
+    </script>
+</head>
+
+<body>
+    <div class="navbar" style="display:none">
+        <img src="/pictures/logo.jpg" id="logo" />
+           <i class="fa fa-bars" id="navBars"></i>
+           <div class="linksContainer">
+             <a href="index.html"><div >Introduction</div></a>
+             <a href="attractions.html"><div class="active">Attractions</div></a>
+             <a href="maps.html"><div>Maps</div></a>
+           </div>
+    </div> 
+    <div class="bodyPart1" id="bp1">
+        <div class="backgroundImages">
+            <div class="cityLondon">
+                <button onclick="" id="clickclickmotherfucker1">Attractions</button>
+                <!--add link of intro to city names-->
+                <div class="txtOnPic1" id="city1" style="display: none;"> 
+                    <p id="londonIntro" style="display: none;"> <bold>
+                        The Houses of Parliament and Elizabeth Tower, 
+                        commonly called Big Ben, are among London's 
+                        most iconic landmarks and must-see London 
+                        attractions. Technically, Big Ben is the 
+                        name given to the massive bell inside the 
+                        clock tower, which weighs more than 13 tons.  
+                        The clock tower looks spectacular 
+                        at night when the four clock faces are illuminated.</bold>
+                    </p>
+                </div>
+                <img src="/pictures/bbPic.jpg" id="london" style="display: none;">
+            </div>
+            <div class="cityParis">
+                <div class="txtOnPic2" id="city2" style="display: none;">
+                <p id="parisIntro">
+                    <bold>
+                        The Eiffel Tower in Paris, France, 
+                        has serious celeb status. Completed
+                        in March 1889, it's one of the most
+                        recognizable monuments in the world.
+                        And the site, which is also known 
+                        as the Iron Lady, receives nearly 
+                        seven millions tourists a year. But
+                        despite its fame, the tower has 
+                        some monumental secrets. 
+                        Get the lowdown on this Parisian highlight.
+                    </bold>
+                </p></div>
+                <img src="/pictures/eifelPic.jpg" id="paris" style="display: none;">
+            </div>
+            <div class="cityRome">
+                <div class="txtOnPic3" id="city3" style="display: none;">
+                <p id="romeIntro">
+                    <bold>
+                        The Colosseum is the main symbol of Rome. It is an imposing 
+                        construction that, with almost 2,000 years of history, will bring you 
+                        back in time to discover the way of life in the Roman Empire.
+                        The construction of the Colosseum began in the year 72 under 
+                        the empire of Vespasian and was finished in the year 80 during 
+                        the rule of the emperor Titus. After completion, the Colosseum became
+                        the greatest Roman amphitheatre, measuring 188 
+                        meters in length, 156 meters in width and 57 meters in height.
+                    </bold>
+                </p></div>
+                <img src="/pictures/colPic.jpg" id="rome" style="display: none;">
+            </div>
+        </div>
+    </div>
+    <div class="footerContainer" style="display:none" id="footer">
+        <img src="/pictures/logo.jpg" id="footerlogo"/>
+           <i class="fa fa-bars" ></i>
+           <div class="footerLinkContainer">
+            <p>
+                BOE 2022; All rights reserved.
+            </p>
+            <a href="http://www.instagram.com/" class="socialIconLink"><i><img
+                src="https://img.icons8.com/metro/26/000000/instagram-new.png" id="numTen" /></i></a>
+    <a href="http://www.twitter.com/" class="socialIconLink"><i><img
+                src="https://img.icons8.com/android/24/000000/twitter.png" id="numEleven" /></i></a>
+    <a href="http://www.youtube.com/" class="socialIconLink"><i><img
+                src="https://img.icons8.com/metro/26/000000/youtube.png" id="numTwelve" /></i></a>
+           </div>
+    </div> 
+</body>
+</html>
