@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!-- <script src="main.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("button").click(function(){
+    $("p").show();
+    });
+    $("button").click(function(){
+    $("div").show();
+    });
+    $("button").click(function(){
+    $("img").show();
+    });
+    $("button").click(function(){
+    $("nav").show();
+    });
+    $("button").click(function(){
+    $("button").hide();
+    });
+    $("#one, #two, #three, #four, #five, #six").each(function(j) {
+        $(this).append("<img src='pictures/"+(++j)+".jpg' alt='images of europe' />");
+    });
+    });
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="./pictures/logo.jpg" id="logo" alt="logo for european cities"/>
+           <i class="fa fa-bars" id="navBars"></i>
+           <div class="linksContainer">
+             <a href="index.html"><div>Introduction</div></a>
+             <a href="attractions.html"><div>Attractions</div></a>
+             <a href="maps.html"><div>Maps</div></a>
+             <a href="galery.html"><div class="active">Galery</div></a>
+           </div>
+    </div>
+
+    <div class="bodyPart1" id="bp1">
+        <button onclick="" id="clickclickmotherfucker1">Galery</button>
+        <div class="dinamicallyLoadedImages" style="display: none;" id="dinamicallyLoadedImages">
+            <div id="one" alt="img of london"></div>
+            <div id="two" alt="img of paris"></div>
+            <div id="three" alt="img of rome"></div>
+            <div id="four" alt="img of big ben"></div>
+            <div id="five" alt="img of eifel tower"></div>
+            <div id="six" alt="img of colosseum"></div>
+        </div>
+    </div>
+    <div class="footerContainer" style="display:none" id="footer">
+        <img src="./pictures/logo.jpg" id="footerlogo" alt="logo for european cities"/>
+           <i class="fa fa-bars" ></i>
+           <div class="footerLinkContainer">
+            <p>
+                BOE 2022; All rights reserved.
+            </p>
+            <a href="http://www.instagram.com/" class="socialIconLink" target="_blank"><i><img
+                src="https://img.icons8.com/metro/26/000000/instagram-new.png" id="numTen" alt="media icon"/></i></a>
+    <a href="http://www.twitter.com/" class="socialIconLink" target="_blank"><i><img
+                src="https://img.icons8.com/android/24/000000/twitter.png" id="numEleven" alt="media icon"/></i></a>
+    <a href="http://www.youtube.com/" class="socialIconLink" target="_blank"><i><img
+                src="https://img.icons8.com/metro/26/000000/youtube.png" id="numTwelve" alt="media icon"/></i></a>
+           </div>
+    </div> 
+</body>
+</html>

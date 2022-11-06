@@ -26,27 +26,19 @@
         $("button").click(function(){
         $("button").hide();
         });
-        $('a[href=http://www.instagram.com]').click(function(){
-        window.open(this.href);
-        return false;
-        });
-        $('a[href=http://www.twitter.com]').click(function(){
-        window.open(this.href);
-        return false;});
-        $('a[href=http://www.youtube.com]').click(function(){
-        window.open(this.href);
-        return false;});
+        
 });
     </script>
 </head>
 <body>
-    <div class="navbar" style="display:none">
-        <img src="./pictures/logo.jpg" id="logo" />
+    <div class="navbar">
+        <img src="./pictures/logo.jpg" id="logo" alt="logo for european cities"/>
            <i class="fa fa-bars" id="navBars"></i>
            <div class="linksContainer">
              <a href="index.html"><div class="active">Introduction</div></a>
              <a href="attractions.html"><div>Attractions</div></a>
              <a href="maps.html"><div>Maps</div></a>
+             <a href="galery.html"><div>Galery</div></a>
            </div>
     </div>
     <div class="bodyPart1" id="bp1">
@@ -54,18 +46,18 @@
             <div class="cityLondon">
                 <button onclick="" id="clickclickmotherfucker1">Introduction</button>
                 <!--add link of intro to city names-->
-                <div class="txtOnPic1" id="city1" style="display: none;"> 
-                    <p id="londonIntro" style="display: none;"> <bold>
+                <div class="txtOnPic1" id="city1"> 
+                    <p id="londonIntro"> <bold>
                     London is the capital city of the United Kingdom. 
                     It is the U.K.'s largest metropolis and its economic,
                     transportation, and cultural centre. London is also
                     among the oldest of the world's 
                     great cities, with its history spanning nearly two millennia.</bold>
                 </p></div>
-                <img src="./pictures/londonPic.jpg" id="london" style="display: none;">
+                <img src="./pictures/londonPic.jpg" id="london" alt="image of london city">
             </div>
             <div class="cityParis">
-                <div class="txtOnPic2" id="city2" style="display: none;">
+                <div class="txtOnPic2" id="city2">
                 <p id="parisIntro">
                     <bold>
                         Paris, city and capital of France, situated
@@ -80,10 +72,10 @@
                         and far beyond both banks of the Seine.
                     </bold>
                 </p></div>
-                <img src="./pictures/parisPic.png" id="paris" style="display: none;">
+                <img src="./pictures/parisPic.png" id="paris" alt="image of paris city">
             </div>
             <div class="cityRome">
-                <div class="txtOnPic3" id="city3" style="display: none;">
+                <div class="txtOnPic3" id="city3">
                 <p id="romeIntro">
                     <bold>
                         Rome, Italian Roma, historic city and 
@@ -95,23 +87,23 @@
                         miles (24 km) inland from the Tyrrhenian Sea.
                     </bold>
                 </p></div>
-                <img src="./pictures/romePic.png" id="rome" style="display: none;">
+                <img src="./pictures/romePic.png" id="rome" alt="image of city rome">
             </div>
         </div>
     </div>
     <div class="footerContainer" style="display:none" id="footer">
-        <img src="./pictures/logo.jpg" id="footerlogo"/>
+        <img src="./pictures/logo.jpg" id="footerlogo" alt="logo for european cities"/>
            <i class="fa fa-bars" ></i>
            <div class="footerLinkContainer">
             <p>
                 BOE 2022; All rights reserved.
             </p>
-            <a href="http://www.instagram.com/" class="socialIconLink"><i><img
-                src="https://img.icons8.com/metro/26/000000/instagram-new.png" id="numTen" /></i></a>
-    <a href="http://www.twitter.com/" class="socialIconLink"><i><img
-                src="https://img.icons8.com/android/24/000000/twitter.png" id="numEleven" /></i></a>
-    <a href="http://www.youtube.com/" class="socialIconLink"><i><img
-                src="https://img.icons8.com/metro/26/000000/youtube.png" id="numTwelve" /></i></a>
+            <a href="http://www.instagram.com/" class="socialIconLink" target="_blank"><i><img
+                src="https://img.icons8.com/metro/26/000000/instagram-new.png" id="numTen" alt="media icon"/></i></a>
+    <a href="http://www.twitter.com/" class="socialIconLink" target="_blank"><i><img
+                src="https://img.icons8.com/android/24/000000/twitter.png" id="numEleven" alt="media icon"/></i></a>
+    <a href="http://www.youtube.com/" class="socialIconLink" target="_blank"><i><img
+                src="https://img.icons8.com/metro/26/000000/youtube.png" id="numTwelve" alt="media icon"/></i></a>
            </div>
     </div> 
 </body>

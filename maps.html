@@ -28,29 +28,19 @@
         $("button").click(function(){
         $("svg").show();
         });
-        $('a[href=http://www.instagram.com]').click(function(){
-        window.open(this.href);
-        return false;
-        });
-        $('a[href=http://www.twitter.com]').click(function(){
-        window.open(this.href);
-        return false;});
-        $('a[href=http://www.youtube.com]').click(function(){
-        window.open(this.href);
-        return false;});
     });
     alert("Countries have names and I did not forget them!");
     </script>
 </head>
-
 <body>
-    <div class="navbar" style="display:none">
-        <img src="./pictures/logo.jpg" id="logo" />
+    <div class="navbar">
+        <img src="./pictures/logo.jpg" id="logo" alt="logo for european cities"/>
            <i class="fa fa-bars" id="navBars"></i>
            <div class="linksContainer">
              <a href="index.html"><div>Introduction</div></a>
              <a href="attractions.html"><div>Attractions</div></a>
              <a href="maps.html"><div class="active">Maps</div></a>
+             <a href="galery.html"><div>Galery</div></a>
            </div>
     </div> 
     <div class="mapLondon">
@@ -647,19 +637,19 @@ c0 40 -51 100 -129 148 -115 72 -152 100 -146 110 3 6 15 10 26 10 20 0 26 24
 </svg>
 
     </div>
-    <div class="footerContainer" style="display:none" id="footer">
-        <img src="./pictures/logo.jpg" id="footerlogo"/>
+    <div class="footerContainer" id="footer" style="display:none">
+        <img src="./pictures/logo.jpg" id="footerlogo" alt="logo for european cities"/>
            <i class="fa fa-bars" ></i>
            <div class="footerLinkContainer">
             <p>
                 BOE 2022; All rights reserved.
             </p>
-            <a href="http://www.instagram.com/" class="socialIconLink"><i><img
-                src="https://img.icons8.com/metro/26/000000/instagram-new.png" id="numTen" /></i></a>
-    <a href="http://www.twitter.com/" class="socialIconLink"><i><img
-                src="https://img.icons8.com/android/24/000000/twitter.png" id="numEleven" /></i></a>
-    <a href="http://www.youtube.com/" class="socialIconLink"><i><img
-                src="https://img.icons8.com/metro/26/000000/youtube.png" id="numTwelve" /></i></a>
+            <a href="http://www.instagram.com/" class="socialIconLink" target="_blank"><i><img
+                src="https://img.icons8.com/metro/26/000000/instagram-new.png" id="numTen" alt="media icon"/></i></a>
+    <a href="http://www.twitter.com/" class="socialIconLink" target="_blank"><i><img
+                src="https://img.icons8.com/android/24/000000/twitter.png" id="numEleven" alt="media icon"/></i></a>
+    <a href="http://www.youtube.com/" class="socialIconLink" target="_blank"><i><img
+                src="https://img.icons8.com/metro/26/000000/youtube.png" id="numTwelve" alt="media icon"/></i></a>
            </div>
     </div> 
 </body>

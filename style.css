@@ -11,7 +11,6 @@ body {
     height: 100%;
     width: 100%;
 }
-
 #londonIntro {
     font-size: 1.2rem;
     border: #f3b9b9;
@@ -24,6 +23,7 @@ body {
     font-weight: 1000;
     width: 80%;
     text-decoration: italic;
+    display:none;
 }
 
 #london {
@@ -33,6 +33,7 @@ body {
     flex-direction: column;
     position: relative;
     right: 20rem;
+    display:none;
 }
 
 #parisIntro {
@@ -47,6 +48,7 @@ body {
     font-weight: 1000;
     width: 100%;
     text-decoration: italic;
+    display:none;
 }
 
 #paris {
@@ -56,6 +58,7 @@ body {
     flex-direction: column;
     position: relative;
     left: 20rem;
+    display:none;
 }
 
 #romeIntro {
@@ -70,6 +73,7 @@ body {
     font-weight: 1000;
     width: 60%;
     text-decoration: italic;
+    display:none;
 }
 
 #rome {
@@ -79,6 +83,7 @@ body {
     flex-direction: column;
     position: relative;
     right: 20rem;
+    display:none;
 }
 
 #city1 {
@@ -89,6 +94,7 @@ body {
     position: absolute;
     right: 46rem;
     font-family: cursive;
+    display:none;
 }
 
 #city2 {
@@ -99,6 +105,7 @@ body {
     position: absolute;
     right: 56rem;
     font-family: cursive;
+    display:none;
 }
 #city3 {
     font-size: 2rem;
@@ -108,6 +115,7 @@ body {
     position: absolute;
     right: 25rem;
     font-family: cursive;
+    display:none;
 }
 #clickclickmotherfucker1 {
     display: flex;
@@ -145,6 +153,7 @@ body {
     display: inline-block;
     width: 100%;
     font-size: larger;
+    display:none;
 }
 #logo 
 {
@@ -234,6 +243,12 @@ body {
         background: #740241;
     }
 }
+
+#one, #two, #three, #four, #five, #six
+{
+    display: flex;
+    padding: 0.5rem;
+}
 .footerContainer
 {
     font-family: cursive;
@@ -241,7 +256,6 @@ body {
     display: flex;
     width: 100%;
     height: 13vh;
-
 }
 #footer {
     bottom: 0;
